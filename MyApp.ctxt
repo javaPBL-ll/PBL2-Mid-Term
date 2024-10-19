@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=MyApp
-comment0.text=\r\n\ MyApp\ \uD074\uB798\uC2A4\uC758\ \uC124\uBA85\uC744\ \uC791\uC131\uD558\uC138\uC694.\r\n\r\n\ @author\ (\uC791\uC131\uC790\ \uC774\uB984)\r\n\ @version\ (\uBC84\uC804\ \uBC88\uD638\ \uB610\uB294\ \uC791\uC131\uD55C\ \uB0A0\uC9DC)\r\n
+comment0.text=\r\n\ GradeReader\ \uD074\uB798\uC2A4\uB294\ \uD30C\uC77C\uB85C\uBD80\uD130\ \uD559\uC0DD\uB4E4\uC758\ \uC131\uC801\ \uB370\uC774\uD130\uB97C\ \uC77D\uC2B5\uB2C8\uB2E4\r\n\r\n\ @author\ (2022320003_\uAC15\uB3D9\uC6B0,\ 2020315040_\uCC44\uB95C,\ 2023320043_\uC7A5\uC5F0\uD76C,\ 2023320033_\uC870\uBBF8\uC120)\r\n\ @version\ (20241018)\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
