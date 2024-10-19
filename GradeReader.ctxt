@@ -2,9 +2,6 @@
 comment0.target=GradeReader
 comment0.text=\r\n\ GradeReader\ \uD074\uB798\uC2A4\uB294\ \uD30C\uC77C\uB85C\uBD80\uD130\ \uD559\uC0DD\uB4E4\uC758\ \uC131\uC801\ \uB370\uC774\uD130\uB97C\ \uC77D\uC2B5\uB2C8\uB2E4\r\n\r\n\ @author\ (2022320003_\uAC15\uB3D9\uC6B0,\ 2020315040_\uCC44\uB95C,\ 2023320043_\uC7A5\uC5F0\uD76C,\ 2023320033_\uC870\uBBF8\uC120)\r\n\ @version\ (20241018)\r\n
 comment1.params=filePath
-comment1.target=GradeReader(java.lang.String)
-comment1.text=\r\n\ GradeReader\ \uD074\uB798\uC2A4\uC758\ \uAC1D\uCCB4\ \uC0DD\uC131\uC790\r\n
-comment2.params=filePath
-comment2.target=java.util.HashMap\ readGrade(java.lang.String)
-comment2.text=\r\n\ \uD30C\uC77C\uB85C\uBD80\uD130\ \uD559\uC0DD\uB4E4\uC758\ \uC774\uB984\uACFC\ \uC131\uC801\uC744\ HashMap\uC5D0\ \uC800\uC7A5\uD569\uB2C8\uB2E4\r\n\ \r\n\ @param\r\n\ @return\ \uD559\uC0DD\uC758\ \uC774\uB984\uC744\ key,\ \uC131\uC801\uC744\ value\uB85C\uD558\uB294\ HashMap\uC744\ \uBC18\uD658\uD569\uB2C8\uB2E4\r\n
-numComments=3
+comment1.target=java.util.HashMap\ readGrade(java.lang.String)
+comment1.text=\r\n\ \uD30C\uC77C\uB85C\uBD80\uD130\ \uD559\uC0DD\uB4E4\uC758\ \uC774\uB984\uACFC\ \uC131\uC801\uC744\ HashMap\uC5D0\ \uC800\uC7A5\uD569\uB2C8\uB2E4\r\n\ \r\n\ @param\ \uC131\uC801\ \uB370\uC774\uD130\ \uD30C\uC77C\uC744\ \uACBD\uB85C\ filePath\r\n\ @return\ \uD559\uC0DD\uC758\ \uC774\uB984\uC744\ key,\ \uC131\uC801\uC744\ value\uB85C\uD558\uB294\ HashMap\uC744\ \uBC18\uD658\uD569\uB2C8\uB2E4\r\n
+numComments=2
