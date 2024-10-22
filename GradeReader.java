@@ -12,20 +12,21 @@ import java.util.Scanner;
  */
 public class GradeReader
 {
-    private String filePath;
+    // 스태틱 메소드로 바꾸면서 필요가 없어짐
+    // public String filePath;
 
-    /**
-     * GradeReader 클래스의 객체 생성자
-     */
-    public GradeReader(String filePath)
-    {
-        this.filePath = filePath;
-    }
+    // /**
+     // * GradeReader 클래스의 객체 생성자
+     // */
+    // public GradeReader(String filePath)
+    // {
+        // this.filePath = filePath;
+    // }
 
     /**
      * 파일로부터 학생들의 이름과 성적을 HashMap에 저장합니다
      * 
-     * @param
+     * @param 성적 데이터 파일을 경로 filePath
      * @return 학생의 이름을 key, 성적을 value로하는 HashMap을 반환합니다
      */
     public static HashMap<String, Integer> readGrade(String filePath)
