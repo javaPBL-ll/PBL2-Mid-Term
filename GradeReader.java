@@ -8,17 +8,16 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * GradeReader 클래스는 파일로부터 학생들의 성적 데이터를 읽습니다
+ * GradeReader 클래스는 파일로부터 학생들의 성적 데이터를 읽고, 최고점의 학생을 비교합니다
  *
  * @author (2022320003_강동우, 2020315040_채륜, 2023320043_장연희, 2023320033_조미선)
- * @version (20241018)
+ * @version (20241022)
  */
 public class GradeReader
 {
-    //스태틱 메소드로 바꾸면서 필요가 없어짐
     private String filePath;
     private int highScore;
-    private List highScoreStudent;
+    private List<String> highScoreStudent;
 
     /**
      * GradeReader 클래스의 객체 생성자
@@ -31,7 +30,7 @@ public class GradeReader
     }
 
     /**
-     * 파일로부터 학생들의 이름과 성적을 HashMap에 저장합니다
+     * 파일로부터 학생들의 이름과 성적을 HashMap에 저장하고, 학생의 점수가 최고점인지 비교합니다
      * 
      * @param 성적 데이터 파일을 경로 filePath
      * @return 학생의 이름을 key, 성적을 value로하는 HashMap을 반환합니다

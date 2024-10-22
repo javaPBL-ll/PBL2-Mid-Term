@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Collections;
 
 /**
- * GradeReader 클래스는 파일로부터 학생들의 성적 데이터를 읽습니다
+ * 학생의 이름과 성적을 파일로 입력받고 총점과, 평균 등을 계산하는 프로그램 입니다
  *
  * @author (2022320003_강동우, 2020315040_채륜, 2023320043_장연희, 2023320033_조미선)
- * @version (20241018)
+ * @version (20241022)
  */
 public class MyApp {
     public static void main(String[] args)

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=GradeCal
-comment0.text=\r\n\ GradeReader\ \uD074\uB798\uC2A4\uB294\ \uD30C\uC77C\uB85C\uBD80\uD130\ \uD559\uC0DD\uB4E4\uC758\ \uC131\uC801\ \uB370\uC774\uD130\uB97C\ \uC77D\uC2B5\uB2C8\uB2E4\r\n\r\n\ @author\ (2022320003_\uAC15\uB3D9\uC6B0,\ 2020315040_\uCC44\uB95C,\ 2023320043_\uC7A5\uC5F0\uD76C,\ 2023320033_\uC870\uBBF8\uC120)\r\n\ @version\ (20241018)\r\n
+comment0.text=\r\n\ GradeCal\ \uD074\uB798\uC2A4\uB294\ \uC131\uC801\uC758\ \uCD1D\uC810\uACFC\ \uD3C9\uADE0\uC744\ \uACC4\uC0B0\uD569\uB2C8\uB2E4\r\n\r\n\ @author\ (2022320003_\uAC15\uB3D9\uC6B0,\ 2020315040_\uCC44\uB95C,\ 2023320043_\uC7A5\uC5F0\uD76C,\ 2023320033_\uC870\uBBF8\uC120)\r\n\ @version\ (20241022)\r\n
 comment1.params=studentGrade
 comment1.target=GradeCal(java.util.HashMap)
 comment1.text=\r\n\ GradeCal\ \uD074\uB798\uC2A4\uC758\ \uAC1D\uCCB4\ \uC0DD\uC131\uC790\r\n

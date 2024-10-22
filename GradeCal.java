@@ -2,10 +2,10 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 /**
- * GradeReader 클래스는 파일로부터 학생들의 성적 데이터를 읽습니다
+ * GradeCal 클래스는 성적의 총점과 평균을 계산합니다
  *
  * @author (2022320003_강동우, 2020315040_채륜, 2023320043_장연희, 2023320033_조미선)
- * @version (20241018)
+ * @version (20241022)
  */
 public class GradeCal
 {
