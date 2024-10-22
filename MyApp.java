@@ -22,7 +22,15 @@ public class MyApp {
         double averageScore = gc.calculateAverageScore();
 
         System.out.println("------ 계산 결과 ------");
-        System.out.println("총점: " + totalScore);
-        System.out.println("평균: " + averageScore);
+
+        if(averageScore == -1)
+        {
+            System.out.println("학생데이터가 존재하지 않습니다");
+        }
+        else
+        {
+            System.out.println("총점: " + totalScore);
+            System.out.println("평균: " + averageScore);
+        }
     }
 }

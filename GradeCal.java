@@ -47,6 +47,13 @@ public class GradeCal
     public double calculateAverageScore()
     {
         int totalScore = calculateTotalScore();
-        return (double) totalScore / studentGrade.size();
+        if(studentGrade.size() == 0)
+        {
+            return -1;
+        }
+        else
+        {
+            return (double) totalScore / studentGrade.size();
+        }
     }
 }
