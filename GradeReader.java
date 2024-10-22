@@ -1,5 +1,6 @@
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -34,8 +35,14 @@ public class GradeReader
         HashMap<String, Integer> studentGrade = new HashMap<>();
         try
         {
-            FileReader fr = new FileReader(new File(filePath));
-            Scanner sc = new Scanner(fr);
+            // FileReader fr = new FileReader(new File(filePath));
+            // Scanner sc = new Scanner(fr);
+            
+            // MS949 인코딩으로 파일을 읽기 위한 InputStreamReader와 Scanner 생성
+            FileInputStream fr = new FileInputStream(new File(filePath));
+            InputStreamReader isr = new InputStreamReader(fr, "MS949");
+            Scanner sc = new Scanner(isr);  // InputStreamReader를 이용하여 스캐너 생성
+            
             while (sc.hasNext())
             {
                 String name = sc.next();

@@ -21,16 +21,14 @@ public class MyApp {
         int totalScore = gc.calculateTotalScore();
         double averageScore = gc.calculateAverageScore();
 
-        System.out.println("------ 계산 결과 ------");
-
-        if(averageScore == -1)
-        {
-            System.out.println("학생데이터가 존재하지 않습니다");
+        
+        System.out.println("------ 학생 성적 리스트 ------");
+        for (String key : sg.keySet()) {
+            System.out.println(key + " : " + sg.get(key));
         }
-        else
-        {
-            System.out.println("총점: " + totalScore);
-            System.out.println("평균: " + averageScore);
-        }
+        
+        System.out.println("------ 총점 및 평균 ------");
+        System.out.println("총점: " + totalScore);
+        System.out.println("평균: " + averageScore);
     }
 }
